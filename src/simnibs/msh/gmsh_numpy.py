@@ -2755,7 +2755,6 @@ class NodeData(Data):
             f.write('$EndNodeData\n')
 
 
-@profile
 def read_msh(fn):
     ''' Reads a gmsh '.msh' file
 
